@@ -75,4 +75,12 @@ h5 {
     height: 50px;
     position: absolute;
   }
+  .nav-bar {
+    position: absolute;
+    top: -50px;
+    padding-top: 0px;
+  }
+  .nav-bar ul li{
+    display: inline;
+  }
 }
