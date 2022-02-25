@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   list-style: none;
 }
 
 body {
   background-color: #00101f !important;
+  position: relative;
 }
 
 a {
@@ -23,7 +24,7 @@ header {
   color: rgb(173, 173, 173) !important;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
 }
 
 .works {
@@ -59,14 +60,19 @@ h5 {
 @media only screen and (min-width: 270px) and (max-width: 912px) {
   .links ul {
     display: flex;
-    position: absolute;
     margin: 0;
     padding: 0;
     top: 0;
   }
 
   .links {
-    margin: 0;
-    padding: 0;
+    top: 0;
+  }
+
+  nav {
+    width: 100%;
+    top: 0;
+    height: 50px;
+    position: absolute;
   }
 }
