@@ -2,10 +2,6 @@
 
 ## Authors
 
-- [Live Demo Link](https://joel-kalema.github.io/Bootstrap-Portfolio/)
-
-## Authors
-
 👤 **joel kalema**
 
 - GitHub: [@githubhandle](https://github.com/joel-kalema)
